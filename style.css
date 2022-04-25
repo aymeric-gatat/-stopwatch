@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(143deg, #2E86DC 14%, #E1E6C5 100%);
+}
+
+#wrapper {
+    padding: 100px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#chrono {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 25px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button::not(:last-child) {
+    margin-right: 15px;
+}
+
+button:nth-child(2) {
+    background-color: #dfdfdf;
+}
+
+button:last-child {
+    background-color: #3A6EFF;
+    color: white;
+}
